@@ -20,7 +20,7 @@ const Feed = () => {
         }}
       >
         <Sidebar />
-
+        
         <Typography
           className="copyright"
           variant="body2"

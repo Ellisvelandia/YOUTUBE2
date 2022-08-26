@@ -19,7 +19,7 @@ const Feed = () => {
           px: { sx: 0, md: 2 },
         }}
       >
-        <Sidebar />
+        <></>
 
         <Typography
           className="copyright"

@@ -1,6 +1,5 @@
-// import { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Box, Stack, Typography } from "@mui/material";
-import Sidebar from "./Sidebar";
 
 const Feed = () => {
   return (
@@ -19,15 +18,10 @@ const Feed = () => {
           px: { sx: 0, md: 2 },
         }}
       >
-        <Sidebar />
+       Sidebar
+       <Typography>
 
-        <Typography
-          className="copyright"
-          variant="body2"
-          sx={{ mt: 1.5, color: "#fff" }}
-        >
-          Copyright 2022 YoutubeApi
-        </Typography>
+       </Typography>
       </Box>
     </Stack>
   );
