@@ -4,7 +4,6 @@ import {Navbar, Feed, ChannelDetail, VideoDetail, SearchFeed } from './component
 
 
 const App = () => {
-<>
 <BrowserRouter>
     <Box sx={{ backgroundColor: '#000' }}>
       <Navbar />
@@ -16,7 +15,6 @@ const App = () => {
       </Routes>
     </Box>
   </BrowserRouter>
-</>
 };
 
 export default App;
