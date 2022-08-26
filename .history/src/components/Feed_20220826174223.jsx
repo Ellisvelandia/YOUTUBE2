@@ -1,7 +1,7 @@
-// import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Box, Stack, Typography } from "@mui/material";
 
-// import { fetchFromAPI } from "../utils/fetchFromAPI";
+import { fetchFromAPI } from "../utils/fetchFromAPI";
 import {  Sidebar } from "./";
 
 const Feed = () => {
@@ -26,8 +26,8 @@ const Feed = () => {
         }}
       >
         <Sidebar
-          // selectedCategory={selectedCategory}
-          // setSelectedCategory={setSelectedCategory}
+          selectedCategory={selectedCategory}
+          setSelectedCategory={setSelectedCategory}
         />
 
         <Typography
@@ -35,7 +35,7 @@ const Feed = () => {
           variant="body2"
           sx={{ mt: 1.5, color: "#fff" }}
         >
-          Copyright © 2022 Youtube Api
+          Copyright © 2022 JSM Media
         </Typography>
       </Box>
 
@@ -49,7 +49,7 @@ const Feed = () => {
           {/* {selectedCategory} <span style={{ color: "#FC1503" }}>videos</span> */}
         </Typography>
 
-        {/* <Videos videos={videos} /> */}
+        <Videos videos={videos} />
       </Box>
     </Stack>
   );

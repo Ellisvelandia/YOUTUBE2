@@ -35,7 +35,7 @@ const Feed = () => {
           variant="body2"
           sx={{ mt: 1.5, color: "#fff" }}
         >
-          Copyright © 2022 Youtube Api
+          Copyright © 2022 Youtube Media
         </Typography>
       </Box>
 
