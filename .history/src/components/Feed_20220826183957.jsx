@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+// import React, { useEffect, useState } from "react";
 import { Box, Stack, Typography } from "@mui/material";
 
 import { fetchFromAPI } from "../utils/fetchFromAPI";
@@ -26,8 +26,8 @@ const Feed = () => {
         }}
       >
         <Sidebar
-          selectedCategory={selectedCategory}
-          setSelectedCategory={setSelectedCategory}
+          // selectedCategory={selectedCategory}
+          // setSelectedCategory={setSelectedCategory}
         />
 
         <Typography
@@ -46,10 +46,10 @@ const Feed = () => {
           mb={2}
           sx={{ color: "white" }}
         >
-          {selectedCategory} <span style={{ color: "#FC1503" }}>videos</span>
+          {/* {selectedCategory} <span style={{ color: "#FC1503" }}>videos</span> */}
         </Typography>
 
-        <Videos videos={videos}/>
+        <Videos/>
       </Box>
     </Stack>
   );
